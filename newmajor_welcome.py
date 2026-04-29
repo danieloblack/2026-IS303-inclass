@@ -1,4 +1,4 @@
-name = input("What is your name? ")
+name = input("What is your full name? ")
 major = input("What is your major? ")
 
 print("Welcome " + name + " to " + major + "!")
