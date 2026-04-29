@@ -12,7 +12,7 @@ Processes:
 
 Outputs:
 -GPA
--Report card for students!
+-Report card for students
 
 """
 
