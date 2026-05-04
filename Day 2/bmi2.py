@@ -40,7 +40,7 @@ if age_is_int == True and age < 140 and age > 1:
 
 sex = sex.lower()
 sex_is_valid = False
-if sex == "Male" or sex == "Female":
+if sex == "male" or sex == "female":
     sex_is_valid = True
 
 height = height.replace(".", "",1)
@@ -57,9 +57,9 @@ if weight_is_int == True:
     weight = int(weight)
 weight_is_reasonable = False
 if weight_is_int == True and weight >= 12 and weight <= 1200:
-    weightDan_is_reasonable = True
+    weight_is_reasonable = True
 
-    ready_to_process = False
+ready_to_process = True
 
 if age_is_int == False or age_is_reasonable == False:
     print("You entered a non-expected age, please use whole numbers.")
